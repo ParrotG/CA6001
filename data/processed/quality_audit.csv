@@ -1,0 +1,7 @@
+stage,rows,retained_pct_of_raw
+raw_rows,4009586,100.0
+after_required_fields,4006560,99.92453086178972
+after_parseable_timestamps,4006560,99.92453086178972
+after_source_month_check,4005919,99.90854417388728
+after_duration_check,4004717,99.87856601654136
+valid_before_deduplication,4004717,99.87856601654136

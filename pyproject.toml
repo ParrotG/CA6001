@@ -1,0 +1,26 @@
+[project]
+name = "ca6001-citibike-demand"
+version = "0.1.0"
+description = "Reproducible preprocessing and exploratory analysis for Citi Bike station demand forecasting."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "notebook>=7.6.3",
+    "folium>=0.19,<1",
+    "holidays>=0.59,<1",
+    "ipykernel>=6.29,<7",
+    "jupyterlab>=4.2,<5",
+    "matplotlib>=3.9,<4",
+    "nbconvert>=7.16,<8",
+    "pandas>=2.2,<3",
+    "pyarrow>=17,<20",
+    "scikit-learn>=1.5,<2",
+    "seaborn>=0.13,<0.14",
+    "xgboost>=2.1,<4",
+]
+
+[dependency-groups]
+dev = []
+
+[tool.uv]
+package = false

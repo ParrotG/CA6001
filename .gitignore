@@ -1,0 +1,11 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Downloaded and generated data are reproducible and should not be committed.
+data/raw/*.zip
+data/processed/*.parquet
+
+# Generated notebook figures.
+reports/figures/*.png
+reports/figures/*.html
